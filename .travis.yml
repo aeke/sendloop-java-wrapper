@@ -11,7 +11,8 @@ deploy:
   provider: releases
   api_key:
     secure: bo9p5FC0x3hEi4/hgEDpFTldNfdjdsuKUarN4QXjk/uEDi+B2i6WKU3luic25HrC/aNQ1J14P8K4IAbxMoiacIpZektQxOkyc7Jph/8k+xjZCq4L7mw1i7WCzEZd6QUI/kU36jbSgNf1ZNyOLB+Dcpv7JqBGa06QVl/cZ6AA1VaLpjlJtJDyLyWVlyHAdz/O4EbJNkCBu8W0+NMC43bqHn15eDZijLlrHK3W8vtdVMXlit46MbJRfeyqtgF+uOzcJOhXagoJnoTmIi27Gujzqd1SOykWiePTmP7aSLJESS/p4AhH0zssUj9vEyMWdzwOOXzQkxwovSqu2HSyx3nGGIHxMdL1VD05MqeWKlBFo11JPaZIPWqJdzgsG5rAcKUD1W+2b0fQyqpjicfC5yXSHZu+gbPyUAImOXbgPKOOMrE95drV9Fg+InKva7BMeEloPmeb2sJ3F4ohBGwxeKJxP2U+zIb+sbHvpj5fuwQTk/EDoaS0JuT/RAy3M+fPMVqGqseQLGR2SRED3Vp4E7r2sQ3eru/eVaDT0diuIF0crqdc11q3vH0WHoGsbod4cCThW1LqD5fcpLlncGRVE/9+KF2leZN9fAacSQdzGhtxwhMv6fhWcH5IRFMGdBg83dYHPMTVvIU0NEziwqYQU0x2XnH8rdJRNXODqSgt/tFVTTc=
-  file: ''
+  file:
+    - "${RELEASE_PKG_FILE}"
   on:
     repo: aeke/sendloop-java-wrapper
     jdk: oraclejdk8
