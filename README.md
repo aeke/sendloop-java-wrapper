@@ -1,7 +1,7 @@
 # Unofficial Java wrapper for Sendloop API v3
 
-[![Build Status](https://travis-ci.org/aeke/sendloop-java-wrapper.svg?branch=master)](https://travis-ci.org/aeke/sendloop-java-wrappers)
-[![Hex.pm](https://img.shields.io/hexpm/l/plug.svg?maxAge=2592000)](https://github.com/aeke/sendloop-java-wrappers/blob/master/LICENSE)
+[![Build Status](https://travis-ci.org/aeke/sendloop-java-wrapper.svg?branch=master)](https://travis-ci.org/aeke/sendloop-java-wrapper)
+[![Hex.pm](https://img.shields.io/hexpm/l/plug.svg?maxAge=2592000)](https://github.com/aeke/sendloop-java-wrapper/blob/master/LICENSE)
 
 For more details about Sendloop API v3, please visit our help section at https://sendloop.com/help/api-001/getting-started
 
