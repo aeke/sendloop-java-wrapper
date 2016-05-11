@@ -10,11 +10,9 @@ script: mvn clean verify
 deploy:
   provider: releases
   api_key:
-    secure: LMY0DXcUaXkjGkbwbn9mPXa6BTY/j+nus5PsJfFCJLPS0/LoaS+UAjsvwnubOeHrHkL9IXlB9zQ684WKdaW0tTYonSm4T4zhDLiZ5Mk0ZuVt3Cst55UAdX/VbGX+fCqPWXi3T0KUA5DgLBNewSTNTek+uYy/Sk32oFANiWZntiMY5gvCGz7s9b/e0pVrdml9QmeZWB6teZl3Pu2bNS6Zcp+zGAzdy8s9xlQTr25H5PkW822fqw6oV1DxC4YmT/MXVH4r+EOmNEAzZ8+Ws9JhdEPXs1hSbQ9fMJ/4QQ1TbSM6oNnUt7+g/OQeLVs9w0iENwI+Gk6HGkdrTnn3K7rgDo/TtvmAnt3LoBbz4RJgFnsj+l8k1XmoaeUPrAYBl9cbWnbTHMLlCxj4TPmJkRvZIxjCNTMc6d6U0nLoyAO6ewji3l4tD/9885oZ+wvipo6ziRiD/VLKSjDhTSLRsVgV47ijMlZucIFkgvilvytzPX1bJ/4l7wE4rvghJDKWUMukFftTCNTHQvLx1sPCmR5NjQ87DeMXAXLOJ0Qb5XlabNyMTZWSy58VzfaFDRdUYDK1uapThSUB7ByKqFVwhjPcRRk1yUeZseRwniJA5QKP3vgs76nUfk+L8ZDbaAP6slFpdInACM25BWQHGTaySKgHZacqM1aP5hybK4WpvYFEydk=
-  file:
-  - "${RELEASE_PKG_FILE}"
-  skip_cleanup: true
+    secure: bo9p5FC0x3hEi4/hgEDpFTldNfdjdsuKUarN4QXjk/uEDi+B2i6WKU3luic25HrC/aNQ1J14P8K4IAbxMoiacIpZektQxOkyc7Jph/8k+xjZCq4L7mw1i7WCzEZd6QUI/kU36jbSgNf1ZNyOLB+Dcpv7JqBGa06QVl/cZ6AA1VaLpjlJtJDyLyWVlyHAdz/O4EbJNkCBu8W0+NMC43bqHn15eDZijLlrHK3W8vtdVMXlit46MbJRfeyqtgF+uOzcJOhXagoJnoTmIi27Gujzqd1SOykWiePTmP7aSLJESS/p4AhH0zssUj9vEyMWdzwOOXzQkxwovSqu2HSyx3nGGIHxMdL1VD05MqeWKlBFo11JPaZIPWqJdzgsG5rAcKUD1W+2b0fQyqpjicfC5yXSHZu+gbPyUAImOXbgPKOOMrE95drV9Fg+InKva7BMeEloPmeb2sJ3F4ohBGwxeKJxP2U+zIb+sbHvpj5fuwQTk/EDoaS0JuT/RAy3M+fPMVqGqseQLGR2SRED3Vp4E7r2sQ3eru/eVaDT0diuIF0crqdc11q3vH0WHoGsbod4cCThW1LqD5fcpLlncGRVE/9+KF2leZN9fAacSQdzGhtxwhMv6fhWcH5IRFMGdBg83dYHPMTVvIU0NEziwqYQU0x2XnH8rdJRNXODqSgt/tFVTTc=
+  file: ''
   on:
-    tags: true
+    repo: aeke/sendloop-java-wrapper
     jdk: oraclejdk8
-    all_branches: true
+    tags: true
