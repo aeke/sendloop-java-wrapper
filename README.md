@@ -35,7 +35,7 @@ Sendloop sendloop = new Sendloop()
                 .Command("Subscriber.Get")
                 .ResponseFormat("json");
         try {
-            System.out.println(sendloop.call());
+            System.out.println(sendloop.call(parameters));
         } catch (SendloopException e) {
             e.printStackTrace();
         }
