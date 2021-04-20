@@ -9,7 +9,7 @@ For more details about Sendloop API v3, please visit our help section at https:/
 Add **sendloop-java-wrapper-1.1.jar** file to project library
 
 
-####Example (without parameters):
+#### Example (without parameters):
 ```java
 Sendloop sendloop = new Sendloop()
                 .ApiKey("YOUR_API_KEY")
@@ -23,7 +23,7 @@ Sendloop sendloop = new Sendloop()
         }
 ```
 
-####Example (with parameters):
+#### Example (with parameters):
 ```java
 Map<String, String> parameters = new HashMap<>();
         parameters.put("ListID","1");
