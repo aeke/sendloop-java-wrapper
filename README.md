@@ -16,18 +16,16 @@ This repository provides an unofficial Java wrapper for interacting with the Sen
 
 1.  **Import the library:**
     
-    Java
     
-    ```
+    ```Java
     import com.example.sendloop.Sendloop; // Replace with the actual package name
     
     ```
     
 2.  **Create a `Sendloop` object:**
     
-    Java
-    
-    ```
+   
+    ```Java
     Sendloop sendloop = new Sendloop()
         .ApiKey("YOUR_API_KEY")
         .Subdomain("http://your-subdomain.sendloop.com")
@@ -42,9 +40,7 @@ This repository provides an unofficial Java wrapper for interacting with the Sen
     -   Set the  `Command`  parameter based on the API call you want to make. Refer to the Sendloop API documentation for available commands.
 3.  **(Optional) Add parameters for specific commands:**
     
-    Java
-    
-    ```
+    ```Java
     Map<String, String> parameters = new HashMap<>();
     parameters.put("ListID", "1");
     parameters.put("EmailAddress", "email@test.com");
@@ -58,9 +54,9 @@ This repository provides an unofficial Java wrapper for interacting with the Sen
     
 4.  **Execute the API call:**
     
-    Java
     
-    ```
+    
+    ```Java
     try {
         String response = sendloop.call();
         System.out.println(response);
@@ -87,5 +83,3 @@ The `call()` method throws a `SendloopException` if any errors occur during the 
 
 -   For questions or issues related to this wrapper library, feel free to create an issue on this repository's GitHub page.
 -   For general Sendloop API questions, refer to the Sendloop developer resources or support channels.
-
-I hope this refined Readme.md provides a clearer, more organized, and informative guide for users of the unofficial Sendloop Java wrapper.
